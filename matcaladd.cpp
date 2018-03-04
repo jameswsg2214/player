@@ -7,7 +7,7 @@ public:
     int get()
     {
 cin>>n;
-
+if(n<=1000){
    for(i=0;i<n;i++)
    {
        for(j=0;j<n;j++)
@@ -15,6 +15,7 @@ cin>>n;
            cin>>a[i][j];
            }
                       }
+}
 return 0;
     }
     int calc()
